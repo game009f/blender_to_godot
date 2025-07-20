@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cm5gftpay45dt"]
+
+[ext_resource type="PackedScene" uid="uid://bl6hmly0hcbm8" path="res://LI-Icosphere/LI-Icosphere.gltf" id="1_ujl7h"]
+
+[node name="LI-Icosphere" type="Node3D"]
+
+[node name="LI-Icosphere" type="Node3D" parent="." instance=ExtResource("1_ujl7h")]

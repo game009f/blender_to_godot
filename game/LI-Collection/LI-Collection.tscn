@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://xn4i0aoxndiq"]
+
+[ext_resource type="PackedScene" uid="uid://bq4mbue3siucy" path="res://LI-Collection/LI-Collection.gltf" id="1_ts2ux"]
+
+[node name="LI-Collection" type="Node3D"]
+
+[node name="LI-Collection" parent="." instance=ExtResource("1_ts2ux")]
+
+[editable path="LI-Collection"]

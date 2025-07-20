@@ -1,0 +1,33 @@
+blender安装GLTF_EXT_blender_studio_godot_io.zip插件
+每次需要在插件偏好设置路径
+project path  总项目路径
+target subpath godot项目路径
+
+
+新建模板blender   参考LI-Icosphere.blender
+所有个网格使用"GEO-"开头
+集合使用"li-"开头
+属性 集合 导出器
+添加类型和资源名称
+导出gltf2.0
+初始化
+文件路径会默认修正
+把导出类型更改为gltf
+然后导出全部
+
+
+新建完整组合blender文件	参考LI-Collection.blender
+集合使用"li-"开头 如 LI-Collection
+把blender模板中的集合添加到LI-Collection集合下面
+link模板blender文件
+添加模板集合（只有集合才有对应配置）
+右键库重写
+复制多个重写对象调整位置
+在集合根上配置导出器 导出gltf2.0
+
+保存blender文件（一定要先保存才能正常初始化）
+初始化
+
+
+必须使用blender集合才能在godot重复引用场景
+唯一的问题是在godot中层级会比较多，导致不必要的性能开销

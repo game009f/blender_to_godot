@@ -1,0 +1,16 @@
+{
+    "assets": {
+        "f225f8352f181941": {
+            "name": "LI-Icosphere",
+            "filepath": "LI-Icosphere\\LI-Icosphere.gltf"
+        },
+        "209c521255e65794": {
+            "name": "LI-Collection",
+            "filepath": "LI-Collection\\LI-Collection.gltf"
+        },
+        "c3bd426df7092460": {
+            "name": "LI-Collection",
+            "filepath": "LI-Collection\\LI-Collection.gltf"
+        }
+    }
+}
